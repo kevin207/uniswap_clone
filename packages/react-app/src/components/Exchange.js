@@ -171,7 +171,7 @@ const Exchange = ({ pools }) => {
           {isSwapping
             ? "Swapping..."
             : hasEnoughBalance
-            ? "Swap"
+            ? "Swap token"
             : "Insufficient balance"}
         </button>
       )}

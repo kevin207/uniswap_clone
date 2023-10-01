@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-
 import { chevronDown } from "../assets";
 import { useOnClickOutside } from "../utils";
 import styles from "../styles";

@@ -16,7 +16,7 @@ const styles = {
 
   // AmountIn & AmountOut
   amountContainer:
-    "flex justify-between items-center flex-row w-full min-w-full bg-site-dim border-[1px] border-transparent hover:border-site-dim2 min-h-[96px] sm:p-6 p-4 rounded-[20px]",
+    "flex justify-between items-center flex-row w-full min-w-full bg-site-dim border-[1px] border-transparent hover:border-site-dim2 min-h-[50px] sm:p-6 p-4 rounded-[20px]",
   amountInput:
     "w-full flex-1 bg-transparent outline-none font-poppins font-bold text-xl text-white",
   currencyButton:
@@ -28,8 +28,12 @@ const styles = {
 
   // Exchange
   actionButton:
-    "border-none outline-none px-6 py-2 font-poppins font-bold text-lg rounded-2xl leading-[24px] transition-all min-h-[56px]",
+    "outline-none px-6 py-2 font-poppins font-bold text-lg rounded-2xl leading-[24px] transition-all min-h-[56px]",
   message: "font-poppins font-lg text-white font-bold mt-7 self-center",
+
+  //HowtoButton
+  howToButton:
+    "mt-6 mb-6 opacity-90 bg-[#18b2de] border-none outline-none px-6 py-2 font-poppins font-bold text-lg text-white rounded-3xl leading-[24px] hover:bg-[#18b2de] transition-all hover:opacity-100",
 
   // WalletButton
   walletButton:
@@ -43,7 +47,7 @@ const styles = {
 
   // balance
   balance: "w-full text-left mt-2 ml-2",
-  balanceText: "font-poppins font-normal text-dim-white",
+  balanceText: "font-poppins font-normal text-dim-white text-xs sm:text-[1rem]",
   balanceBold: "font-medium text-white",
 };
 

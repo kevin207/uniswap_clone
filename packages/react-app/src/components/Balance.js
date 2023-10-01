@@ -1,6 +1,5 @@
 import React from "react";
 import { formatUnits, parseUnits } from "ethers/lib/utils";
-
 import styles from "../styles";
 
 const Balance = ({ tokenBalance }) => {
